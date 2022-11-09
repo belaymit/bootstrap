@@ -95,6 +95,11 @@ h5 {
   margin: 12px 24px;
 }
 
+.badge {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
 .footer-section {
   border-top-left-radius: 80px;
 }
@@ -128,15 +133,36 @@ h5 {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.about-myself-card {
+.about-myself-card-one {
   border: none;
-  padding: 24px;
-  margin: 64px 24px 24px 24px;
+  padding: 114px 0 0 64px;
+  margin: 24px 0 24px 24px;
+  padding-bottom: 24px;
+}
+
+.about-myself-card-two {
+  border: none;
+  padding: 114px 0 0 64px;
+  margin: 24px 24px 24px 0;
+  border-top-right-radius: 64px;
+}
+
+.card-title-header {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: left;
+  margin: 24px 0;
 }
 
 .language-body .language {
   display: block;
   margin: 10px;
+  background: #f8f9f9;
+  border-radius: 5px;
+  padding: 12px;
 }
 
 .language-body {
@@ -150,21 +176,36 @@ h5 {
 
 .framework-skills {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-top: 16px;
+  margin-top: 24px;
   border-bottom: 1px solid #dddde4;
+}
+
+.framework-skills a {
+  margin-right: 24px;
+  color: #172b4d;
+}
+
+.framework-skills h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
 .language-class {
   display: flex;
+  margin-bottom: 24px;
   justify-content: space-between;
 }
 
-.card-title-header {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: left;
+.framework-skills.skills {
+  margin-bottom: 24px;
+}
+
+.submit-btn {
+  margin-left: 37%;
 }
