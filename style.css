@@ -122,3 +122,39 @@ h5 {
   font-size: 15px;
   font-style: normal;
 }
+
+.about-myself {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-myself-card {
+  border: none;
+  padding: 24px;
+  margin: 64px 24px 24px 24px;
+}
+
+.language-body .language {
+  display: block;
+}
+
+.language-body {
+  display: flex;
+  gap: 16px;
+}
+
+.language span {
+  text-align: center;
+}
+
+.framework-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  border-bottom: 1px solid #dddde4;
+}
+
+.language-class {
+  display: flex;
+  justify-content: space-between;
+}
